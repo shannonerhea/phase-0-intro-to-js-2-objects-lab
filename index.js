@@ -15,7 +15,10 @@ function updateEmployeeWithKeyAndValue(obj, key, value) {
     //return Object.assign({}, obj, {[key]: value});
     return {...obj, [key] : value};
 };
-
+// const updateEmployeeWithKeyAndValue = (obj, key, value) => {
+//     //return Object.assign({}, obj, {[key]: value});
+//     return {...obj, [key] : value};
+// };
 /*this function should work the same as 
 updateEmployeeWithKeyAndValue() but it should 
 mutate the employee Object passed in. */
